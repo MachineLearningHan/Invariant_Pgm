@@ -1,0 +1,264 @@
+# 가장 큰 문제점
+
+## 1. Assumption 2.1이 아직도 논문의 가장 약한 부분입니다.
+
+논문 전체는
+
+```
+Assumption 2.1
+
+↓
+
+모든 Proposition
+```
+
+으로 갑니다.
+
+그런데
+
+Assumption이 상당히 강합니다.
+
+예를 들면
+
+```
+normalization commutes
+
+rotation absorbable
+
+scale absorbable
+```
+
+등을 가정합니다. 
+
+Remark 2.4에서
+
+Transformer는 approximation이라고 말하지만
+
+심사위원은 바로 질문합니다.
+
+> "그렇다면 Proposition들은 exact theorem인가, approximation theorem인가?"
+
+현재는
+
+둘 사이가 조금 모호합니다.
+
+---
+
+## 2. Representation과 Function이 계속 섞입니다.
+
+논문의 메시지는
+
+```
+representation
+
+≠
+
+capability
+```
+
+입니다.
+
+그런데
+
+중간중간
+
+```
+representation equivalence class
+
+↓
+
+teacher knowledge
+
+↓
+
+capability
+```
+
+를 같은 단어처럼 사용하는 부분이 있습니다. 
+
+엄밀하게는
+
+Representation
+
+Function
+
+Capability
+
+Knowledge
+
+네 단어는 계속 분리해야 합니다.
+
+---
+
+## 3. Proposition 3.2는 직관보다 수학이 약합니다.
+
+논문의 핵심은
+
+```
+f = f̄ ○ πjoint
+```
+
+입니다. 
+
+좋은 아이디어입니다.
+
+하지만 증명은
+
+거의
+
+```
+constant on fibers
+
+↓
+
+universal property
+```
+
+한 줄입니다.
+
+수학자는
+
+이 부분을 가장 먼저 공격합니다.
+
+조금 더 자세한 전개가 있으면 좋겠습니다.
+
+---
+
+## 4. "Capability lives on quotient"
+
+이 문장을 너무 많이 반복합니다.
+
+Introduction
+
+↓
+
+Section 3
+
+↓
+
+Section 5
+
+↓
+
+Discussion
+
+거의 같은 문장이 계속 나옵니다. 
+
+3~4번 정도 줄여도 전달력은 유지됩니다.
+
+---
+
+# 실험에서 아쉬운 점
+
+논문의 실험은
+
+현재
+
+```
+Theory
+
+↓
+
+support
+```
+
+역할입니다.
+
+하지만
+
+최고 학회는
+
+Theory 자체보다
+
+"새로운 예측"
+
+을 더 좋아합니다.
+
+예를 들어
+
+```
+Theory
+
+↓
+
+Prediction
+
+↓
+
+실험으로 확인
+```
+
+가 더 많아질수록 강해집니다.
+
+현재는
+
+Restoration
+
+Ablation
+
+Grafting
+
+세 개입니다.
+
+여기에
+
+하나 정도만 더 있으면 상당히 강해집니다.
+
+---
+
+# 가장 걱정되는 부분
+
+논문가
+
+```
+Representation similarity
+
+```
+
+논문처럼 보일 위험입니다.
+
+실제로는
+
+그게 아닙니다.
+
+하지만
+
+CKA
+
+Gram
+
+Principal angle
+
+등이 많이 등장해서
+
+처음 읽는 심사위원은
+
+```
+또 representation similarity 논문인가?
+```
+
+라고 생각할 수 있습니다.
+
+Introduction에서
+
+이를 더 강하게 차별화할 필요가 있습니다.
+
+---
+
+# Discussion
+
+Discussion은
+
+현재보다
+
+20% 정도 줄이는 것이 좋습니다.
+
+이미
+
+논문의 메시지는 충분히 전달되었습니다.
+
+후반부는
+
+약간 반복됩니다.
+
+
